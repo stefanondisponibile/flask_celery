@@ -26,7 +26,7 @@ docker run --name some-redis -d redis
 You'll need a worker to get things done, run the following command in a separate terminal tab:
 
 ```bash
-celery worker -A celery_worker.celery --loglevel=info
+celery worker -A celery_worker.celery --loglevel=info --pool=solo
 ```
 
 ### 3. Start the app.
