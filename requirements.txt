@@ -1,9 +1,9 @@
 amqp==2.5.1
 billiard==3.6.1.0
 celery==5.2.2
-certifi==2019.9.11
+certifi==2023.7.22
 Click==7.0
-Flask==1.1.1
+Flask==2.2.5
 importlib-metadata==0.23
 itsdangerous==1.1.0
 Jinja2==2.11.3
@@ -11,7 +11,7 @@ kombu==4.6.5
 MarkupSafe==1.1.1
 more-itertools==7.2.0
 pytz==2019.3
-redis==3.3.8
+redis==4.4.4
 vine==1.3.0
-Werkzeug==0.16.0
+Werkzeug==2.2.3
 zipp==0.6.0
